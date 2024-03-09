@@ -134,25 +134,19 @@ export const testRideData = [
         id: 1,
         title: 'Find a break in your day',
         subText: 'Fits your schedule anytime, any day',
-        text1: 'Pick your own location',
-        text2: 'Choose among the Classic or Cruiser ST',
-        text3: 'Find a date and time that works for you',
+        descList: ['Pick your own location', 'Choose among the Classic or Cruiser ST', 'Find a date and time that works for you']
     },
     {
         id: 2,
         title: 'Meet a test rider',
         subText: 'Local experts in your city',
-        text1: 'Greets you at your location',
-        text2: 'Brings you the model of your choice',
-        text3: 'Flexible if you need to reschedule',
+        descList: ['Greets you at your location', 'Brings you the model of your choice', 'Flexible if you need to reschedule']
     },
     {
         id: 3,
         title: 'Experience it first hand',
         subText: 'Ready for you to try it yourself',
-        text1: 'Learn all about Cowboy bikes',
-        text2: 'Mount on and feel the difference',
-        text3: 'Ask any question you might have',
+        descList: ['Learn all about Cowboy bikes', 'Mount on and feel the difference', 'Ask any question you might have']
     },
 ]
 

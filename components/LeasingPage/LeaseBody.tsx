@@ -6,10 +6,10 @@ import Footer from '../Footer';
 const LeaseBody = () => {
   return (
     <div className='bg-[#F6F6F6]'>
-      <div className='relative top-[100vh] '>
+      <div className='bg-[#F6F6F6] relative top-[100vh] '>
         <ProviderSection />
-        <Options/>   
-        <FaqSection/>
+        <Options />
+        <FaqSection />
         <Footer />
       </div>
     </div>

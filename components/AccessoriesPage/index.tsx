@@ -3,7 +3,7 @@
 import React from 'react'
 import Navbar from '../Navbar'
 import AccessoriesHero from './AccessoriesHero'
-import CategorySection from './CategorySection'
+import AccessoriesBody from './AccessoriesBody'
 
 const Accessories = () => {
   
@@ -11,7 +11,7 @@ const Accessories = () => {
     <div>
      <Navbar />   
      <AccessoriesHero />   
-     <CategorySection/>
+     <AccessoriesBody/>
     </div>
   )
 }

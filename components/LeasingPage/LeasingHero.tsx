@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -32,7 +31,7 @@ const LeasingHero = () => {
           <div className=''>
             <Link
               href='#provider'
-              className='bg-white group hover:bg-[#000] h-12 w-12 mt-40 xl:mt-24 flex items-center justify-center text-center rounded-full mx-auto'
+              className='bg-white group hover:bg-[#000] h-12 w-12 mt-40 flex items-center justify-center text-center rounded-full mx-auto xl:mt-24'
             >
               <ArrowDownIcon className='custom_animation mx-auto w-5 h-12 group-hover:text-white text-[#1D1D1D]' />
             </Link>
@@ -41,6 +40,6 @@ const LeasingHero = () => {
       </div>
     </div>
   );
-}
+};
 
-export default LeasingHero
+export default LeasingHero;

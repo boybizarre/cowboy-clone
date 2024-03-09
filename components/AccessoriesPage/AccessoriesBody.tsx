@@ -4,9 +4,9 @@ import SparepartsSection from './SparepartsSection';
 import SafetySection from './SafetySection';
 import MaintenanceSection from './MaintenanceSection';
 import ApparelSection from './ApparelSection';
-import Footer from '../../components/Footer';
+import Footer from '../Footer';
 
-const CategorySection = () => {
+const AccessoriesBody = () => {
   return (
     <div className='relative top-[91vh]  z-40'>
       <TabsSection />
@@ -20,4 +20,4 @@ const CategorySection = () => {
   );
 };
 
-export default CategorySection;
+export default AccessoriesBody;

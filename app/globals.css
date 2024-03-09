@@ -291,6 +291,12 @@ body {
   background: rgba(29, 29, 29, 0.1);
 }
 
+.custom_mapText {
+  position: absolute;
+  right: 2%;
+  top: 5%;
+}
+
 .custom_maxWidth {
   @apply max-w-7xl px-3 sm:px-4 mx-auto;
 }
@@ -500,6 +506,14 @@ body {
 @media screen and (max-width: 768px) {
   .react-parallax-bgimage {
     object-fit: cover;
+  }
+
+  .custom_mapText {
+    width: 95%;
+    top: 1.5rem;
+    left: 0px;
+    right: 0%;
+    margin: auto;
   }
 }
 
