@@ -54,7 +54,7 @@ const Collection = () => {
           E-Bikes <ChevronDownIcon className='w-6 h-6 opacity-90' />
         </button>
       </div>
-      <Transition.Root
+      <Transition
         appear
         show={isOpen}
         as={Fragment}
@@ -146,7 +146,7 @@ const Collection = () => {
             </div>
           </div>
         </Dialog>
-      </Transition.Root>
+      </Transition>
     </div>
   );
 };
