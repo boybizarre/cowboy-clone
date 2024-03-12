@@ -121,7 +121,7 @@ const HeadwindSection = () => {
             className='w-full py-12 xl:w-1/2 xl:py-24'
           >
             <h3 className='custom_circularSubText'>
-              AdaptivePower is inside every Cowboy. The bike's motor adjusts in
+              AdaptivePower is inside every Cowboy. The bike&apos;s motor adjusts in
               real time for a new prowess on the streets
             </h3>
             <div className='flex text-white opacity-75 items-center pt-6 gap-2 font-sand text-[19px]'>
