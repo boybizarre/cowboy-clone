@@ -3,7 +3,7 @@ const ConnectSection = () => {
     <section>
       <div className='custom_maxWidth py-10 xl:py-20'>
         <div className='w-full xl:w-1/2'>
-          <h3 className='custom_connectSubText'>
+          <h3 className='custom_subText'>
             The defining features of a Cowboy deserve a closer look, and the
             ride feeling is unlike anything you&apos;ve ever tried. Get ready to
             experience it yourself.
@@ -51,7 +51,7 @@ const ConnectSection = () => {
         </div>
 
         <div className='w-full flex flex-col gap-4 xl:w-1/2'>
-          <h3 className='custom_connectSubText'>
+          <h3 className='custom_subText'>
             Don&apos;t miss out on trying the Cowboy experience, and soon enough
             it&apos;ll be yours.
           </h3>

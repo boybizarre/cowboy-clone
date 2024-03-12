@@ -12,7 +12,7 @@ const Potential = () => {
       <div>
         <div className='custom_maxWidth pt-14 xl:pt-24'>
           <div className='w-full xl:w-6/12'>
-            <h3 className='custom_connectSubText'>
+            <h3 className='custom_subText'>
               Unleash the true potential of your ride with Connect. You&apos;ll
               experience a newfound force with AdaptivePower, enjoy turn-by-turn
               Google Maps navigation and rest easy with GPS tracking and theft
@@ -82,7 +82,7 @@ const Potential = () => {
               className='w-full flex flex-col gap-3 xl:gap-2 pt-8 xl:pt-16 xl:1/2'
             >
               <h1 className='custom_connectMainText'>Adaptive Power</h1>
-              <h3 className='custom_connectSubText'>
+              <h3 className='custom_subText'>
                 Feel the latest ride technology built into an electric motor as
                 it adapts to any change in condition or terrain for extra power
                 when you need it.

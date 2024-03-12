@@ -5,7 +5,7 @@ const BookRideSection = () => {
     <section id='preview'>
       <div className='custom_maxWidth pt-12 xl:pt-24'>
         <div className='w-full xl:w-6/12 flex flex-col gap-4'>
-          <h3 className='custom_connectSubText'>
+          <h3 className='custom_subText'>
             Try one of our bikes to discover how it fits your style and the way
             you like to ride. A test rider will come to you to show you the new
             way of cycling in and around the city.

@@ -20,7 +20,7 @@ const ShareRide = () => {
           className='w-full xl:w-6/12 flex flex-col gap-4 pb-12 xl:pb-20 pt-8 xl:pt-16 '
         >
           <h1 className='custom_connectMainText'>Stay on course</h1>
-          <h3 className='custom_connectSubText'>
+          <h3 className='custom_subText'>
             Enjoy turn-by-turn navigation and stay connected on every ride with
             Cowboy&apos;s predictive technology. Activate Share My Ride to let
             friends and loved ones follow your journey in realtime and

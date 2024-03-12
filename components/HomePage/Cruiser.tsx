@@ -62,7 +62,7 @@ const Cruiser = () => {
               </Link>
               <Link
                 href='/test-ride'
-                className='custom_flex_center gap-1 font-sand font-[500] xl:gap-2'
+                className='custom_flexCenter gap-1 font-sand font-[500] xl:gap-2'
               >
                 Book a test ride{' '}
                 <ChevronRightIcon className='w-6 h-6 xl:mt-1' />

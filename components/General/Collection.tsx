@@ -103,7 +103,7 @@ const Collection = () => {
                         <h2 className='font-sand font-[500] text-[28px] leading-8 pt-8 pb-28'>
                           Three models to choose from
                         </h2>
-                        <div className='custom_flex_center hover:underline font-sand text-[18px] text-[#1D1D1D] font-[500] gap-1 w-fit'>
+                        <div className='custom_flexCenter hover:underline font-sand text-[18px] text-[#1D1D1D] font-[500] gap-1 w-fit'>
                           <Link
                             href='/test-ride'
                             onClick={(e) => e.stopPropagation()}

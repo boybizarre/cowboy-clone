@@ -36,6 +36,14 @@ body {
   overflow-x: hidden;
 }
 
+#classic {
+  background: linear-gradient(259.28deg, #fcfaf4 15.32%, #d6dbd2 100.3%);
+}
+
+#classic-ride {
+  background: linear-gradient(3deg, #e7eae7a8 14.56%, #fdf8f2 61.18%);
+}
+
 #cruiser {
   background: linear-gradient(224deg, #eee5d3 20%, #fffaf4 81.18%);
 }
@@ -53,6 +61,17 @@ body {
   background: linear-gradient(259.28deg, #fcfaf4 15.32%, #d6dbd2 100.3%);
 }
 
+#filters {
+  box-shadow: 0 0.2px 3.5px rgba(0, 0, 0, 0.05),
+    0 0.4px 6.9px rgba(0, 0, 0, 0.036), 0 0.8px 10.5px rgba(0, 0, 0, 0.03),
+    0 1.3px 14.6px rgba(0, 0, 0, 0.025), 0 2.5px 20.7px rgba(0, 0, 0, 0.02),
+    0 6px 55px rgba(0, 0, 0, 0.014);
+}
+
+#intro {
+  background: linear-gradient(30deg, #fffaf4 14.44%, #eee5d3 81.18%);
+}
+
 #item-classic {
   background: linear-gradient(225deg, #e7eae7 30.32%, #f6f0e9 100.3%);
 }
@@ -65,11 +84,17 @@ body {
   background: linear-gradient(224deg, #e3e5fc 30.32%, #f8f9fc 81.18%);
 }
 
-#filters {
-  box-shadow: 0 0.2px 3.5px rgba(0, 0, 0, 0.05),
-    0 0.4px 6.9px rgba(0, 0, 0, 0.036), 0 0.8px 10.5px rgba(0, 0, 0, 0.03),
-    0 1.3px 14.6px rgba(0, 0, 0, 0.025), 0 2.5px 20.7px rgba(0, 0, 0, 0.02),
-    0 6px 55px rgba(0, 0, 0, 0.014);
+#page-cruiser {
+  background: linear-gradient(30deg, #faf2e8 14.44%, #efe6d8 81.18%);
+}
+
+#page-cruiserst {
+  background: linear-gradient(
+    247.2deg,
+    #e3e5fc 8.64%,
+    #f7f8fc 52.48%,
+    #efeeeb 86.51%
+  );
 }
 
 @keyframes customAnimation {
@@ -103,8 +128,20 @@ body {
   @apply bg-[#1D1D1D] text-white px-9 text-[16px] font-sand font-medium py-2.5 rounded-full hover:bg-white hover:text-[#1D1D1D] transition duration-700 ease-in-out;
 }
 
+.custom_bikeDesc {
+  @apply text-left font-sand font-[500] text-[16px] text-[#757575] pb-6 pr-6;
+}
+
 .custom_bikes {
   display: none;
+}
+
+.custom_bikeText {
+  @apply text-[16px] font-sand text-[#1d1d1d] font-[500];
+}
+
+.custom_bikeTitle {
+  @apply text-left font-rale font-[500] text-[25px] text-[#1D1D1D] py-4;
 }
 
 .custom_box_shadow {
@@ -176,10 +213,6 @@ body {
   @apply text-[18px] font-sand text-[#747474] font-[500];
 }
 
-.custom_connectSubText {
-  @apply font-sand text-[#1d1d1d] font-[500] text-[22px] md:text-[25px] xl:text-[27px];
-}
-
 .custom_connectText {
   position: absolute;
   top: 35%;
@@ -202,7 +235,7 @@ body {
   width: fit-content;
 }
 
-.custom_flex_center {
+.custom_flexCenter {
   @apply flex flex-row items-center;
 }
 
@@ -238,6 +271,10 @@ body {
 
 .custom_h3 {
   @apply text-[16px] font-sand font-[500] md:text-[20px];
+}
+
+.custom_heroMainText {
+  @apply tracking-tight font-rale text-[40px] sm:text-[55px] font-[500] text-black lg:text-[100px];
 }
 
 .custom_heroText {
@@ -388,6 +425,10 @@ body {
   z-index: 12;
   color: #000;
   transition: 0.5s ease-in-out;
+}
+
+.custom_subText {
+  @apply font-sand text-[#1d1d1d] font-[500] text-[22px] md:text-[25px] xl:text-[27px];
 }
 
 .custom_videoContainer {

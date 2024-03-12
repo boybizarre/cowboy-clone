@@ -22,7 +22,7 @@ const Fitness = () => {
           className='w-full flex flex-col xl:gap-4 pt-8 xl:pt-16  xl:w-6/12'
         >
           <h1 className='custom_connectMainText'>Social Fitness</h1>
-          <h3 className='custom_connectSubText'>
+          <h3 className='custom_subText'>
             Join the Cowboy community and discover a world of rider groups to
             connect and compete. The embedded sensors in your bike provide
             detailed tracking of all your activity.
@@ -60,7 +60,7 @@ const Fitness = () => {
         </section>
 
         <div className='w-full pt-16 xl:w-1/2'>
-          <h3 className='custom_connectSubText'>
+          <h3 className='custom_subText'>
             With Apple Health and Strava integration, automatically sync your
             rides and get credit for all your activities. Complement your ride
             with the Apple Watch App and see your movements stack up.

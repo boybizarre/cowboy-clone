@@ -24,7 +24,7 @@ const TheftInsurance = () => {
           className='w-full xl:w-6/12 flex flex-col gap-4 pt-8 xl:pt-16 '
         >
           <h1 className='custom_connectMainText'>Rest easy</h1>
-          <h3 className='custom_connectSubText'>
+          <h3 className='custom_subText'>
             With <span className='underline'>Theft Insurance</span> enabled,
             we&apos;ll alert you immediately if someone tries to snatch your
             bike. Plus, our GPS tracking ensures you can always locate your ride

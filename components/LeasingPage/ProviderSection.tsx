@@ -54,7 +54,7 @@ const ProviderSection = () => {
     <div>
       <div className='custom_maxWidth'>
         <div className='w-full xl:w-6/12 pb-12 xl:pb-24' id='provider'>
-          <p className='custom_connectSubText'>
+          <p className='custom_subText'>
             We partner with the best leasing providers to give you the
             flexibility you need. So that you can focus on what is really
             important, the ride .
